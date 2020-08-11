@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<a class="muted small" href="/">mkgll</a>
+
+<h1>{{ page.title }}</h1>
+
+{{ content }}
+
+{% if page.date %}
+    <p class="muted small">
+       Published {{ page.date | date: "%Y-%m-%d" }}
+      
+    </p>
+    {% endif %}
+
+<br>
+
+<p class="muted small" style="margin-top: 20px;">© 2020 | <a class="muted" href="https://danromero.org/feed.xml">RSS</a> | <a class="muted" href="https://twitter.com/mkgll">@_mkgll</a> | <a class="muted" href="mailto:hello@danromero.org" title="">hello@mkgll.com</a></p>

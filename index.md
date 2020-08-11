@@ -11,6 +11,8 @@ SF-based angel investor interested in technology. More [about](/about) me.
             {{ post.title }}
           </a>
 {% endfor %}</p>
+
+---
  
 
 <section class="archive-post-list">

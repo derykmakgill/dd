@@ -21,7 +21,7 @@ SF-based angel investor interested in technology. More [about](/about) me.
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
            {% unless forloop.first %}</ul>{% endunless %}
-           <h1>{{ currentDate }}</h1>
+           <h2>{{ currentDate }}</h2>
            <ul style="list-style: none; padding-left: 0px;">
            {% assign myDate = currentDate %}
        {% endif %}

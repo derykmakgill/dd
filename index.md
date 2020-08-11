@@ -6,7 +6,12 @@ layout: default
 
 SF-based angel investor interested in technology. More [about](/about) me.
 
-**New:** Crypto Reading
+<p><strong>New:</strong> {% for post in site.posts limit:1 %}
+  <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+{% endfor %}</p>
+ 
 
 <section class="archive-post-list">
 

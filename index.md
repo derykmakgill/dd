@@ -18,7 +18,7 @@ SF-based angel investor interested in technology. More [about](/about) me.
            <ul style="list-style: none; padding-left: 0px;">
            {% assign myDate = currentDate %}
        {% endif %}
-       <li><a href="{{ post.url }}"><span>{{ post.title }}</a></li>
+       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
        {% if forloop.last %}</ul>{% endif %}
    {% endfor %}
 

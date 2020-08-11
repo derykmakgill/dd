@@ -16,12 +16,11 @@ SF-based angel investor interested in technology. More [about](/about) me.
  
 
 <section class="archive-post-list">
-
+  <h2>Articles</h2>
    {% for post in site.posts %}
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
            {% unless forloop.first %}</ul>{% endunless %}
-           <h2>{{ currentDate }}</h2>
            <ul style="list-style: none; padding-left: 0px;">
            {% assign myDate = currentDate %}
        {% endif %}
